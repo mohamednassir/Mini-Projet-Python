@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Lire le fichier CSV contenant les données des voiture
-df = pd.read_csv("Data/car_prices.csv")
+df = pd.read_csv("car_prices.csv")
 
 # Afficher les 5 premières lignes du DataFrame pour un aperçu des données
 print(df.head())
